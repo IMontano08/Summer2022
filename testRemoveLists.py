@@ -11,7 +11,7 @@ def main():
     print("Your list is: \n " + str(list))
     print("Now picking one at random")
     print(random.choice(list)+"\n") 
-    #while len(list) > 03
+    #while len(list) > n
        #list.remove(random.choice(list))
        #print(list)
         
