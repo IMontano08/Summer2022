@@ -52,7 +52,6 @@ def loop1():
             randomPick()
         elif x.lower() == "n" or x.lower() == "no":
             loopCond = False
-            finalMsg()
         else:
             print("Please select a valid option")
     finalMsg()
