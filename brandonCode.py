@@ -30,5 +30,17 @@ def Reset():
     French=["Litos Empanada's",'Blue Spot Sushi',"Kathryn's Soul Food",'Jokers','Buen Appatito','Cubano Bros','Aloha Poke','Bangaroos','Saigon Sisters','Taste of Phillipines','Dim Sum']
     Outside=['Avnti Cafe','Blaze Pizza','Chik Fil A','Epic Burger','Dog Haus','Asadito','Portillos','Blackies']
 
+def newOption():
+    print('\n Do you want to pick another place?')
+    answer = str(input("\n"))
+    if answer == 'yes':
+        Location()
+    elif answer == 'no':
+        print('\n Thanks for playing!')
+        exit()
+    else:
+        print('\n Wrong answer, please try again!')
+        newOption()
+
 Location()
 
