@@ -42,7 +42,7 @@ def finalMsg():
     print("\nHave fun at Lunch\n")
 
 def loop1():
-    loopCond = True;
+    loopCond = True
 
     while loopCond == True and len(peopleInRoom) >= 2:
         
